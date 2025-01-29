@@ -9,7 +9,7 @@
 ARRAY=("bill_1" "bill_2" "bill_3")                    # Array of bills. Put here the name of the bill that you want to add to the script.
 DFT_DATE="$(date +%m.%B)"                             # Set the date format name to rename the files.
 YEAR="$(date +%Y)"                                    # Default year format
-SRC_FOLDER="/home/Downloads/receipts"                 # Set the path where the files are stored
+SRC_FOLDER="/home/user/Downloads/receipts"                 # Set the path where the files are stored
 DEST_FOLDER="/path/to/move/receipts/"                 # Set the path location to move the files  
 FILE_EXT=("pdf" "png" "jpeg")                         # Set the files extensions supported 
 FLAG=0                                                # Flag to control if the script needs to be executed
